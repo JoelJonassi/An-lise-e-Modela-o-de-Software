@@ -54,4 +54,4 @@ A implementação do sistema seguirá as Seguintes condições:
 * O projeto terminará ?? meses depois do primeriro sprint.?????
 
 
-[Paginal Inicial](PaginaInicial)
+[Home](PaginaInicial)

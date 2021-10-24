@@ -24,4 +24,4 @@
 * O Cliente deverá ser capaz de ver os produtos disponiveis
 * A camera Municipal deverá ser capaz de registar e eliminar um determinado comerciante
   
-[Paginal Inicial](PaginaInicial)
+[Home](PaginaInicial)
