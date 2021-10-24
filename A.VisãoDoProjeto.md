@@ -29,9 +29,10 @@ A Implementação do sistema resultará em vários benefiçios nomeadamente:
 
 ## Descrição dos Stakeholders
 
-* Cliente
-* Fornecedor/Comerciante
-* Camera Municipal
+* Cliente (População)
+* Produtores/Fornecedores
+* Administração da Câmara Municipal
+* Entidade Financeira (Validar transações)
 
 
 ## Diagrama de Contexto do Sistema
@@ -42,16 +43,25 @@ A Implementação do sistema resultará em vários benefiçios nomeadamente:
 
 ## Descrição dos interessados do sistema
 
-O Sistema terá :
-* **Cliente** - Representa o vendedor pretenda alanvacar as suas vendas, usufruindo do sistema também representa o consumidor final que compra o produto apartir da plataforma.
-* **Fornecedor** - O comerciante
-* **Banco** - Entidante que valida as transações efetuadas na plataforma.??????
-* **Camera Municipal** - Entidade legisladora
+O Sistema terá 4 :
+* **Produtor** - Representa o vendedor que pretende alanvacar as suas vendas, usufruindo do sistema
+* **Consumidor** - Representa o interresado em adquirir os produtos comercializados apartir da plataforma
+* **Entidade Financeira** - Entidante que valida as transações efetuadas na plataforma
+* **Câmara Municipal** - Entidade dona do projeto, que gere o sistema
+
+
+## Caraterísticas de alto nível
 
 A implementação do sistema seguirá as Seguintes condições:
 
-* O Cliente deverá ser capaz de ver os produtos disponiveis e efetuar a compra a qualquer momento do dia???
-* O projeto terminará ?? meses depois do primeriro sprint.?????
+* **Venda do produto** - O Cliente deverá ser capaz de ver os produtos disponiveis, efetuar ou cancelar a encomenda a qualquer momento do dia.
+* **Posto de registo dos produtores** - Para além do sistema permitir o registo online, os produtores terão que fazer prova presencial da atividade económica na câmara (Serem produtores locais).
+* **Notas de encomendas** - O sistema, após validação da encomenda terá de reportar aos respetivos produtores, os produtos a serem disponibilizados para recolha.
+
+A implementação do sistema deve considerar as seguintes condições:
+
+* Os clientes podem efetuar as suas encomendas em qualquer lado em que se encontrem.
+* Este projeto deverá terminar ao fim de cinco meses.
 
 
 [Home](PaginaInicial)
