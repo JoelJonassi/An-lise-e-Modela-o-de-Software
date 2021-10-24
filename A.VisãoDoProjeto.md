@@ -12,8 +12,11 @@ software, incluindo a modelação e a implementação parcial do projeto.
 
 Devido à pandemia, a suspensão ou restrição de atividade em variados setores, como restauração, comércio, turismo e cultura, entre outros, elevou o número de falências em Portugal, agravou situações de precariedade e provocou o aumento do desemprego.
 Tal situação:
+
 * Criou uma enorme crise, tanto económica quanto social.
+  
 * Excesso de stock acumulado.
+  
 O sistema permitirá fazer compras dos produtos apartir de qualquer lado na plataforma web.
 
 ## Objetivos do negócio e benefícios do projeto
