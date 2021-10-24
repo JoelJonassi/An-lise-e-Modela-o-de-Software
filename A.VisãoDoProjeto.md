@@ -18,14 +18,11 @@ Tal situação, criou uma enorme crise, tanto económica quanto social.
 
 A Implementação do sistema resultará em vários benefiçios nomeadamente:
 
-* Sistematizar o processo de adesão de novos clientes???
-* Promover o comerçio local
-* Markentig
-* Expandir o negoçio dos comerciantes tradicionais
-* Os clientes podem efectuar as suas compras sem terem de se deslocar.
-* Os produtores, mesmo perante a suspensão de grande parte da actividade económica, ainda assim conseguem dar continuidade á sua actividade comercial.
-* Promover o consumo de produtos locais
+* Promover o consumo, o comerçio e a produção local
+* Os clientes podem efectuar as suas compras sem terem de se deslocar ao local, reduzindo a emissão de gases poluentes.
+* Os produtores, mesmo perante a suspensão de grande parte da actividade económica, devido a pandemia ainda assim conseguem dar continuidade á sua actividade comercial.
 * Dar acesso ao mercado a pequenos comerciantes
+* Solidariedade social.
 
 ## Descrição dos Stakeholders
 
