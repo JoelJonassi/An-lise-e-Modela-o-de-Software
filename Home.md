@@ -13,4 +13,3 @@ B. [Definição do Negócio](B.DefiniçãoDoNegócio.md)
 
 
 * Sprint03 — Implementação
-* 

@@ -47,8 +47,11 @@ A Implementação do sistema resultará em vários benefiçios nomeadamente:
 
 O Sistema terá 4 :
 * **Produtor** - Representa o vendedor que pretende alanvacar as suas vendas, usufruindo do sistema
+  
 * **Consumidor** - Representa o interresado em adquirir os produtos comercializados apartir da plataforma.
+  
 * **Entidade Financeira** - Entidante que valida as transações efetuadas na plataforma.
+  
 * **Câmara Municipal** - Entidade dona do projeto, que gere o sistema.
 
 
@@ -66,4 +69,4 @@ A implementação do sistema deve considerar as seguintes condições:
 * Este projeto deverá terminar ao fim de cinco meses.
 
 
-[Home](PaginaInicial)
+[Pagina Inicial](Home)

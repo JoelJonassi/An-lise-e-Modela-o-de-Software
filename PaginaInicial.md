@@ -13,5 +13,4 @@ B. [Definição do Negócio](B.DefiniçãoDoNegócio.md)
 * Sprint02 — Definição de Requisitos
 
 
-* Sprint03 — Implementação
-* 
+* Sprint03 — Implementação00
