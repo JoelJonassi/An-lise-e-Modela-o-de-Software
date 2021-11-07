@@ -14,27 +14,42 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
  O Diagrama abaixo ilustra as entidades que foram consideradas na primeira fase "1º Sprint", para a implementação do projeto.
 
 
+![Diagrama_dominio](images/Diagrama_dominio.png)
+
 
 # Definições
 
+* **Utilizador** - Os produtores, os clientes e a câmara municipal que usufrem da Plataforma web.
 
+* **Produtor** - Representa o vendedor que pretende alanvacar as suas vendas, usufruindo do sistema.
 
-* **Produtor** - Representa o vendedor que pretende alanvacar as suas vendas, usufruindo do sistema
+* **Cliente** - O comprador do produto.
+
+* **Camara Municipal** - Entidade que valida um produtor, nediante assinatura presencial e validade de possuir produtos locais.
   
-* **Utilizador** - Clientes que adiquirem os produtos comercializados apartir da plataforma
+* **Login** - Para os utilizadores da plataforma poderem usufruir devem estar registados, para fazer uma encomenda devem ter iniciado a sessão na plataforma.
 
-* **Produto** - Alimento especifico, a ser enviado ao cliente, comprado no dia especifico e enviado num dia especifico.
+* **Presença** - Prova presencial que o produtor deve fazer, para ser validada a sua conta na plataforma como sendo produtor.
+  
+* **Produto** - Alimento especifico, preço.
 
-* **Tipo de produto** - Categoria de alimentos.
+* **Categoria** - Categoria de alimentos.
+  
+* **Preço** - Valor que o produto custa em €.
+  
+* **Consultar** - Funcionalidade que permite a câmara municipal consultar os produtos em stock.
+  
+* **Stock** - Produto disponivel para venda.
+  
+* **Carrinho** - No processo de escolha dos produtos o cliente pode coloca-los no carrinho.
 
-* **stock** - Produto disponivel para venda
+* **Pagamento** - Transação eletrónica, que permite pagar produto.
+  
+* **Fatura** - Após o pagamento é emitida uma fatura para o cliente.
 
-* **Pagamento** - Transação eletrónica que retira o valor na conta do cliente o valor do oproduto e o habilita a receber a encomenda
+* **Transporte do Produto** - Meio de transporte para o envio das encomendas.
 
-* **Transporte** - Meio de transporte para o envio das encomendas.
-
-
-* **Encomenda** - Conjunto de produtos referentes a 15 pedidos feitos pelo mesmo cliente ou não, de forma consecutiva desde que tenha sido feito antes das 15 horas do dia em curso.
+* **Encomenda** - Conjunto de produtos.
 
 
 
