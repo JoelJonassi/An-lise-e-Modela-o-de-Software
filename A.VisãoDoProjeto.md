@@ -38,10 +38,7 @@ A Implementação do sistema resultará em vários benefiçios nomeadamente:
 
 
 ## Diagrama de Contexto do Sistema
-*
-*
-*
-*
+![Diagrama de Contexto.JPG](https://bitbucket.org/repo/y5rxLzz/images/2958449012-Diagrama%20de%20Contexto.JPG)
 
 ## Descrição dos interessados do sistema
 
@@ -50,10 +47,10 @@ O Sistema terá 4 :
 * **Produtor** - Representa o vendedor que pretende alanvacar as suas vendas, usufruindo do sistema
   
 * **Consumidor** - Representa o interresado em adquirir os produtos comercializados apartir da plataforma.
-  
-* **Entidade Financeira** - Entidante que valida as transações efetuadas na plataforma.
-  
-* **Câmara Municipal** - Entidade dona do projeto, que gere o sistema. 
+    
+* **Administrador** - Entidade dona do projeto, que gere o sistema (Câmara Municipal). 
+ 
+* **LDAP** - Serviço de autenticação
 
 
 
