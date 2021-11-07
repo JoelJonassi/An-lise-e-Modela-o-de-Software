@@ -53,7 +53,7 @@ O Sistema terá 4 :
   
 * **Entidade Financeira** - Entidante que valida as transações efetuadas na plataforma.
   
-* **Câmara Municipal** - Entidade dona do projeto, que gere o sistema.
+* **Câmara Municipal** - Entidade dona do projeto, que gere o sistema. 
 
 
 
