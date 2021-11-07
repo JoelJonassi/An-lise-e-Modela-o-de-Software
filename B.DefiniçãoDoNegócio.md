@@ -34,8 +34,6 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
 
 * **Categoria** - Categoria de alimentos.
   
-* **Preço** - Valor que o produto custa em €.
-  
 * **Consultar** - Funcionalidade que permite a câmara municipal consultar os produtos em stock.
   
 * **Stock** - Produto disponivel para venda.
