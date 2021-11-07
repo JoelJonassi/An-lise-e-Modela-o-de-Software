@@ -3,7 +3,7 @@
 O Projeto será realizado por um grupo contendo três elementos e tem como o seu ponto fulcral a análise e modelação de software.
 
 
-![Business_Online.png](images/Business_Online.png)
+![Business_Online.png](./images/Business_Online.png)
 
 Consistirá em 3 etapas:
 
