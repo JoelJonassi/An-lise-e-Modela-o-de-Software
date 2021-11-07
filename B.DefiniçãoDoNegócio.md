@@ -13,7 +13,7 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
  
  O Diagrama abaixo ilustra as entidades que foram consideradas na primeira fase "1º Sprint", para a implementação do projeto.
 
-![Diagrama_dominio.png](./images/Diagrama_dominio.png)
+![Diagrama_dominio.png](https://bitbucket.org/repo/y5rxLzz/images/2183754350-Diagrama_dominio.png)
 
 
 # Definições
