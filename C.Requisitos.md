@@ -6,10 +6,11 @@ Next sections include the the use case diagrams and brief descritption of each s
 ### Cliente (CdU01#)
 O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Cliente".
 
-![UseCase01](images/TicketsPurchaseUC.png)
+INCLUIR DIGRAMA DE CASO DE USO "CLIENTE"
 
 The login use case will provide the user authentication and is expected to be implemented by an external federated authentication server. Next, a brief description of the use cases to be implemented:
-* **CdU01.1 — Encomendar Produtos** — The user get new ticket for a meal in a specific canteen, date, meal type, and dish type.
+
+* **CdU01.1 — Encomendar Produtos** — 
 
 * **CdU01.2 — Cancelar Encomenda** — ...
 
@@ -30,9 +31,10 @@ Etc.
 The following use case diagram shows the use cases of component "Canteen POS".
 O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Camara Muncipal".
 
-![UseCase01](images/CanteenPosUC.png)
+INCLUIR DIGRAMA DE CASO DE USO "CAMARA MUNICIPAL"
 
 Asseguir, uma breve descrição de cada caso de uso:
+
 * **CdU02.1 — Validar Produtor** —  O Administrador valida produtor, isto é, se eles estão aptos a exercer para usufruir da plataforma, venda de seus produtos.
 
 * **CdU02.2 — Consultar Stock** — O administrador "Camâra Municipal" deve ser capaz de consultar o stock existente.
@@ -41,11 +43,13 @@ Asseguir, uma breve descrição de cada caso de uso:
 
 * **CdU02.3 — Extrair A morada** — O administrador deve ser capaz de extrair a morada do cliente para o envio da encomenda.
 
-* **CdU02.4 — Reprint bill** — ..
+* **CdU02.4 —** — ..
 
-* **CdU02.5 — Print bill** — ..
+* **CdU02.5 —** — ..
 
 ### Produtor (Cdu.#)
+
+INCLUIR DIGRAMA DE CASO DE USO "PRODUTOR"
 
 * **CdU02.1 — Insere produto/Elimina Produto** —  O Administrador valida produtor, isto é, se eles estão aptos a exercer para usufruir da plataforma.
 
@@ -54,8 +58,7 @@ Asseguir, uma breve descrição de cada caso de uso:
 
 * **CdU02.4 — Consultar o nível de satisfação dos seus clientes** — O produtor pode consulatar o nível de satisfação dos seus clientes.
 
-* **CdU02.5 — Print bill** — .
-[Not developed]
+* **CdU02.5 — ** — .
 
 
 ## Regras de Negocio
@@ -68,30 +71,29 @@ As Regras de Negoçio (RN) são a fonte de muitas decisõse de negoçios. Podem 
 
 * **RN04 — Tempo para Cancelar Encomenda** — A encomenda pode ser cancelada antes das 14:30pm caso tenha feito a encomenda no dia anterior apartir das 15:00pm até 14:30 do dia em causa.
 
-* **RN05 — other rules to be validated by the system** — ...
+* **RN05 — Outras regras a serem validadas pelo sistema** — ...
 Etc.
 
 
 ## Technical requirements
-In this section are grouped the business rules, non-functional requirements, and other constraints. It also includes the assumptions that the team will embody in the project.  
-
+INTRO................:
 
 ## Requisitos Não Funcionais
-Most of the Non-Functional Requirements (NFR) are implicit in the condition:
-* **NFR01 — Web platform** — The "tickets acquisition" component should run in a Web platform;
 
-* **NFR02 — User account** — The users should use the IPCA's email account to login;
+* **RNF01 — ** 
 
-* **NFR03 — Web browser** — the system should be compatible with the current version or higher of the Safari, Chrome, and Firefox browsers.
-Etc.
+* **RNF02 — Conta do cliente e conta do produtor**
 
-## Assumptions and constraints
-All constraints and decisions that have a relevant impact on the project, should be explicitly mentioned and documented:
-* **AC01 — Deadlines** — The project should be ready for deployment in the beginning of the 2nd semester;
+* **RNF03 — Plataforma web** 
 
-* **AC02 — Open Source** — The team will use open source technology, as much as possible.
+## Pressupostos e constrangimentos
 
-* **AC03 — Languages** — The "tickets acquisition" component will support Portuguese and English languages
-Etc.
+INTRO......................:
+
+* **PC01 — Deadlines**
+
+* **PC02 — Open Source** 
+
+* **PC03 — Languages** 
 
 [Back Home](Home)
