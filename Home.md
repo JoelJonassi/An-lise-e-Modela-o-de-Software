@@ -15,5 +15,8 @@ B. [Definição do Negócio](B.DefiniçãoDoNegócio.md)
 
 * Sprint02 — Definição de Requisitos e Planeamento
 
+C. [Requisitos](C.Requisitos.md)
+
+D. [Planeamento do projeto](D.PlaneamentoProjeto.md)
 
 * Sprint03 — Implementação
