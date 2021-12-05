@@ -87,13 +87,18 @@ INTRO................:
 * **RNF03 — Plataforma web** 
 
 ## Pressupostos e constrangimentos
+Considerações a ter durante o projecto:
 
-INTRO......................:
+* **PC01 — Data Limite** O projeto deverá estar pronto a arrancar no 2º semestre, para validar os protótipos.
 
-* **PC01 — Deadlines**
+* **PC02 — Equipamento** A equipa irá utilizar software com licença pedagogica, IDEs, BitBucket e Jira. Os computadores terão sistema operativo com licença pedagogica. Todo e qualquer equipamento requesitado será providenciado. 
 
-* **PC02 — Open Source** 
+* **PC03 — Lingua** A plataforma suporta os idiomas português, inglês e francês, sendo o português o idioma predefinido.
 
-* **PC03 — Languages** 
+* **PC04 — Custo** O projecto terá um custo de três salários de desenvolvedores e um para o orientador do projeto durante o tempo de vida útil do projeto, isto envolve também manuntençao da plataforma.
+
+* **PC05 — Beneficio** O projecto vai trazer valor aos produtores locais e experiência aos desevolvedores do projeto.
+
+
 
 [Back Home](Home)
