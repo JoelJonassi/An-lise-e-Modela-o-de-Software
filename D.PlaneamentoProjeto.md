@@ -25,6 +25,16 @@ PB009   |   Email confirmação      |     Could
 
 ## Prioridadedos Cdu
 
+BREVE INTRODUÇÃO DAS PRIORIDADES CDU
+
+Cdu codigo |Nome do Cdu| Prioridade
+-----|-----|-----
+Cdu1.01 | nome Cdu | Alto
+Cdu1.02 | nome Cdu | Baixo
+Cdu2.02 | nome Cdu | Baixo
+Cdu1.02 | nome Cdu | Alto
+Cdu3.02 | ... | ...|
+
 
 ## Técnicas de prioridade: MoSCoW, Alta/Média/Baixa
 

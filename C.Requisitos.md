@@ -118,11 +118,29 @@ INTRO................:
 
 ## Requisitos Não Funcionais
 
-* **RNF01 — ** 
 
-* **RNF02 — Conta do cliente e conta do produtor**
+* **RNF01 — Plataforma** - A aplicação suporta no máximo 100 pessoas conectadas simultaneamente. 
 
-* **RNF03 — Plataforma web** 
+* **RNF02 — Compatibilidade** - A aplicação tem se ser compatível com o sistema opracional Android a partir da versão 4.0.3. 
+
+* **RNF03 — Plataforma web** - Toda a atividade relacionada com o cliente é realizada numa plataforma Web.
+
+* **RNF04 — Usabilidade** - Design responsivo nas interfaces gráficas.
+
+* **RNF05 — Performance** - O utilizador não deve esperar mais de 3 segundos, em média, para visualizar novo.
+
+* **RNF06 — Recursos** - O utilizador não deve esperar mais de 3 segundos, em média, para visualizar novo.
+
+* **RNF07 — Tipo de Interface** - Usar formulário para entrada de dados e dialog boxes.
+
+* **RNF08 — Tipo de Interface** - Maximizar a facilidade de uso via teclado e não via rato.
+
+* **RNF09 — Web Browser** - O sistema deve ser compatível com as versões correntes do Chrome, Safari, Firefox, Microsoft Edge, Etc. 
+
+* **RNF010 — Conta Cliente** - O utilizador deve ter mais de 18 anos.
+
+
+
 
 ## Pressupostos e constrangimentos
 
