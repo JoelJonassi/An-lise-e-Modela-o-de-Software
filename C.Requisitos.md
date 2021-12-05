@@ -118,6 +118,7 @@ INTRO................:
 
 ## Requisitos Não Funcionais
 
+
 * **RNF01 — Plataforma** - A aplicação suporta no máximo 100 pessoas conectadas simultaneamente. 
 
 * **RNF02 — Compatibilidade** - A aplicação tem se ser compatível com o sistema opracional Android a partir da versão 4.0.3. 
@@ -140,14 +141,19 @@ INTRO................:
 
 
 
+
 ## Pressupostos e constrangimentos
 
-INTRO......................:
+Pressupostos e constrangimentos que tenham impacto sobre o projeto:
 
-* **PC01 — Deadlines**
+* **PC01 — Data Limite** O projeto deverá estar pronto a arrancar no 2º semestre, para validar os protótipos.
 
-* **PC02 — Open Source** 
+* **PC02 — Equipamento** A equipa irá utilizar software com licença pedagogica, IDEs, BitBucket e Jira. Os computadores terão sistema operativo com licença pedagogica. Todo e qualquer equipamento requesitado será providenciado. 
 
-* **PC03 — Languages** 
+* **PC03 — Lingua** A plataforma suporta os idiomas português, inglês e francês, sendo o português o idioma predefinido.
+
+* **PC04 — Custo** O projecto terá um custo de três salários de desenvolvedores e um para o orientador do projeto durante o tempo de vida útil do projeto, isto envolve também manuntençao da plataforma.
+
+* **PC05 — Beneficio** O projecto vai trazer valor aos produtores locais e experiência aos desevolvedores do projeto.
 
 [Back Home](Home)
