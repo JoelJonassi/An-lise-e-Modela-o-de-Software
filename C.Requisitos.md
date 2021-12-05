@@ -6,7 +6,7 @@ Next sections include the the use case diagrams and brief descritption of each s
 ### Login / Registo (CdU01#)
 O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Login / Registo".
 
-![imagem](Images\UC_Login-Registo.JPG)
+![image](Images\UC_Login-Registo.JPG)
 
 The login use case will provide the user authentication and is expected to be implemented by an external federated authentication server. Next, a brief description of the use cases to be implemented:
 
@@ -46,7 +46,7 @@ The login use case will provide the user authentication and is expected to be im
 The following use case diagram shows the use cases of component "Compras".
 O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Compras".
 
-![imagem](Images\UC_Compras.JPG)
+![image](Images\UC_Compras.JPG)
 
 Asseguir, uma breve descrição de cada caso de uso:
 
@@ -75,7 +75,7 @@ Asseguir, uma breve descrição de cada caso de uso:
 
 ### Recolha/Envio (Cdu03.#)
 
-![imagem](Images\UC_Recolha_Envio.JPG)
+![image](Images\UC_Recolha_Envio.JPG)
 
 * **CdU03.1 — Notifica Data/Hora entrega** —  O admin notifica o cliente acerca da data e hora da entrega da sua encomenda.
 
