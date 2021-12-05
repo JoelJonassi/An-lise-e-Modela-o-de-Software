@@ -10,7 +10,7 @@ O foco principal desta plataforma e-commerce, é que seja de fácil utilização
 
 # Preparação do Product Backlog (PB)
 
-* **PB01 -**  
+* **PB01 - Criação **  
 
 
 ## Prioridadedos Cdu
