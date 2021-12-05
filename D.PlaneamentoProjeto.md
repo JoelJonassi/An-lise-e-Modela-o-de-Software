@@ -28,6 +28,15 @@ Cdu3.02 | ... | ...|
 
 ## Técnicas de prioridade: MoSCoW, Alta/Média/Baixa
 
+As técnicas de prioridade moscow permite determinar  o que é e não é essencial para o projeto,ou seja, é um metodo rigoroso que indica onde o foco deve estar, permitindo a equipa determinar quanto esforço será despendido para cada categoria. 
+
+Cdu codigo |Nome do Cdu| Prioridade
+-----|-----|-----
+Cdu1.01 | nome Cdu | Must
+Cdu1.02 | nome Cdu | Should
+Cdu2.02 | nome Cdu | Could
+Cdu1.02 | nome Cdu | Won´t
+Cdu3.02 | ... | ...|
 
 
 [Back Home](Home)
