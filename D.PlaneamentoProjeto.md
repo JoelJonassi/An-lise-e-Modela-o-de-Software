@@ -5,6 +5,7 @@ Os componentes funcionais tem diferentes requisitos técnicos. Os produtos devem
 O foco principal desta plataforma e-commerce, é que seja de fácil utilização seguindo os padrões das plataformas e-commerce existentes, de fácil usabilidade, ou seja, uma plataforma simples e objetiva que atenda as necessidades dos utilizadores.
 
 
+![image](Images\ArquiteturaTecnica.png)
 
 
 # Preparação do Product Backlog (PB)
