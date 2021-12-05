@@ -87,7 +87,7 @@ INTRO................:
 * **RNF03 — Plataforma web** 
 
 ## Pressupostos e constrangimentos
-Considerações a ter durante o projecto:
+Pressupostos e constrangimentos que tenham impacto sobre o projeto:
 
 * **PC01 — Data Limite** O projeto deverá estar pronto a arrancar no 2º semestre, para validar os protótipos.
 
