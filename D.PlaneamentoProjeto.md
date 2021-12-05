@@ -4,7 +4,7 @@ Os componentes funcionais tem diferentes requisitos técnicos. Os produtos devem
 O principal  reuquisito da plataforma e-commerce de produtos locais é que seja de fácil utilização seguindo os padrões das plataformas existentes, rápida entrega das encomendas.
 
 
-[image](Images\ArquiteturaTecnica.png)
+![image](Images\ArquiteturaTecnica.png)
 
 
 # Preparação do Product Backlog (PB)
