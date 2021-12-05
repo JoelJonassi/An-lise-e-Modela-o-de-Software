@@ -48,7 +48,5 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
 
 * **Encomenda** - Conjunto de produtos.
 
-
-
   
 [Pagina Inicial](Home)
