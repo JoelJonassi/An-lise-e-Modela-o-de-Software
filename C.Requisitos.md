@@ -118,7 +118,7 @@ INTRO................:
 
 ## Requisitos Não Funcionais
 
-* **RNF01 — ** 
+
 
 * **RNF02 — Conta do cliente e conta do produtor**
 
