@@ -10,23 +10,23 @@ O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Login
 
 The login use case will provide the user authentication and is expected to be implemented by an external federated authentication server. Next, a brief description of the use cases to be implemented:
 
-* **CdU01.1 — Novo Registo** — O Cliente efetua um registo na plataforma para que possa usar a mesma.
+* **CdU01.01 — Novo Registo** — O Cliente efetua um registo na plataforma para que possa usar a mesma.
 
-* **CdU01.2 — Define username** — O cliente define o username pretendido.
+* **CdU01.02 — Define username** — O cliente define o username pretendido.
 
-* **CdU01.3 — Define password** — O cliente define a password para, juntamente com o username ter acesso à plataforma desenvolvida.
+* **CdU01.03 — Define password** — O cliente define a password para, juntamente com o username ter acesso à plataforma desenvolvida.
 
-* **CdU01.4 — Regista NIF** — O cliente insere o seu NIF para se poderem emitir facturas das suas compras.
+* **CdU01.04 — Regista NIF** — O cliente insere o seu NIF para se poderem emitir facturas das suas compras.
 
-* **CdU01.5 — Insere Morada** — O cliente insere a morada no seu perfil de modo a definir o destino das suas encomendas.
+* **CdU01.05 — Insere Morada** — O cliente insere a morada no seu perfil de modo a definir o destino das suas encomendas.
 
-* **CdU01.6 — Insere Contato** — O cliente insere o seu contato para que possa ser contactado quando necessário.
+* **CdU01.06 — Insere Contato** — O cliente insere o seu contato para que possa ser contactado quando necessário.
 
-* **CdU01.7 — Insere e-mail** — O cliente o seu e-mail, para onde será enviada a confirmação e fatura das suas encomendas.
+* **CdU01.07 — Insere e-mail** — O cliente o seu e-mail, para onde será enviada a confirmação e fatura das suas encomendas.
 
-* **CdU01.8 - Login** - O cliente efetua login na aplicação de modo a poder consultar/fazer compras, visualizar e alterar os seus dados.
+* **CdU01.08 - Login** - O cliente efetua login na aplicação de modo a poder consultar/fazer compras, visualizar e alterar os seus dados.
 
-* **CdU01.9 - User Profile** -  Após efetuar o seu login, o cliente tem acessso ao seu perfil, podendo visualizar e editar o mesmo
+* **CdU01.09 - User Profile** -  Após efetuar o seu login, o cliente tem acessso ao seu perfil, podendo visualizar e editar o mesmo
 
 * **CdU01.10 - Logout** - Após aceder à plataforma, o cliente efetua "Logout" se modo a sair da aplicação com segurança.
 
@@ -50,25 +50,21 @@ O diagrama de casos de uso asseguir mostras os componentes de caso de uso "Compr
 
 Asseguir, uma breve descrição de cada caso de uso:
 
-* **CdU02.1 — Gerir Carrinho** —  O Administrador valida produtor, isto é, se eles estão aptos a exercer para usufruir da plataforma, venda de seus produtos.
+* **CdU02.01 — Gerir Carrinho** —  O Administrador valida produtor, isto é, se eles estão aptos a exercer para usufruir da plataforma, venda de seus produtos.
 
-* **CdU02.2 — Apagar artigos** — O cliente tem a possibilidade de apagar artigos no carrinho
+* **CdU02.02 — Apagar artigos** — O cliente tem a possibilidade de apagar artigos no carrinho
 
-* **CdU02.3 — Editar artigos** — Editar os artigos qu estejam no seu carrinho.
+* **CdU02.03 — Adicionar artigos** — O Cliente adiciona os artigos nos seu carrinho conforme a sua preferência.
 
-* **CdU02.4 — Adicionar artigos** — O Cliente adiciona os artigos nos seu carrinho conforme a sua preferência.
+* **CdU02.04 — Ver Itens** — Após efetuar a sua seleção de artigos, visualiza os mesmos de forma a confirmar a escolhas.
 
-* **CdU02.5 — Ver Itens** — Após efetuar a sua seleção de artigos, visualiza os mesmos de forma a confirmar a escolhas.
+* **CdU02.05 — Confirmar dados de envio** — Após a visualização e confirmação dos itens escolhidos, o cliente confirma os dados de envio.
 
-* **CdU02.6 — Confirmar dados de envio** — Após a visualização e confirmação dos itens escolhidos, o cliente confirma os dados de envio.
+* **CdU02.06 - Efetuar Compra** — Depois de confirmar a sua encomenda e forma de envio, o cliente submete a sua compra.
 
-* **CdU02.7 - Efetuar Compra** — Depois de confirmar a sua encomenda e forma de envio, o cliente submete a sua compra.
+* **CdU02.07 — CheckOut** — Depois de submeter a compra, é apresentado ao cliente os dados para o pagamento da mesma e os tipos de pagamento.
 
-* **CdU02.8 — CheckOut** — Depois de submeter a compra, é apresentado ao cliente os dados para o pagamento da mesma e os tipos de pagamento.
-
-* **CdU02.9 — Gerir Compra** — O admin faz a gestão das compras dos clientes, para verificar a conformidade das mesmas
-
-* **CdU02.10 — Login** — Tanto o cliente como o admin têm de fazer login para efetuarem as suas operações.
+* **CdU02.08 — Login** — Tanto o cliente como o admin têm de fazer login para efetuarem as suas operações.
 
 
 
@@ -77,9 +73,9 @@ Asseguir, uma breve descrição de cada caso de uso:
 
 ![image](Images\UC_Recolha_Envio.JPG)
 
-* **CdU03.1 — Notifica Data/Hora entrega** —  O admin notifica o cliente acerca da data e hora da entrega da sua encomenda.
+* **CdU03.01 — Notifica Data/Hora entrega** —  O admin notifica o cliente acerca da data e hora da entrega da sua encomenda.
 
-* **CdU03.2 — Verifica Encomenda** — O Admin faz uma verificação da encomenda antes de notificar o cliente e o produtor.
+* **CdU03.02 — Verifica Encomenda** — O Admin faz uma verificação da encomenda antes de notificar o cliente e o produtor.
 
 * **CdU03.3 — Valida encomenda** —  Após a verificação, o admin valida a encomenda 
 
@@ -113,8 +109,9 @@ As Regras de Negoçio (RN) são a fonte de muitas decisõse de negoçios. Podem 
 Etc.
 
 
-## Technical requirements
-INTRO................:
+## Requisitos Técnicos
+
+Nesta secção foram incluidas as regras de negoçios, os requisitos não-funcionais , os constrangimentos, também nesta secção foram incluidos os pressupostos tidos em conta pela equipa.
 
 ## Requisitos Não Funcionais
 
@@ -138,20 +135,18 @@ INTRO................:
 * **RNF09 — Conta Cliente** - O utilizador deve ter mais de 18 anos.
 
 
-
-
 ## Pressupostos e constrangimentos
 
 Pressupostos e constrangimentos que tenham impacto sobre o projeto:
 
-* **PC01 — Data Limite** O projeto deverá estar pronto a arrancar no 2º semestre, para validar os protótipos.
+* **PC01 — Data Limite** - O projeto deverá estar pronto a arrancar no 2º semestre, para validar os protótipos.
 
-* **PC02 — Equipamento** A equipa irá utilizar software com licença pedagogica, IDEs, BitBucket e Jira. Os computadores terão sistema operativo com licença pedagogica. Todo e qualquer equipamento requesitado será providenciado. 
+* **PC02 — Equipamento** - A equipa irá utilizar software com licença pedagogica, IDEs, BitBucket e Jira. Os computadores terão sistema operativo com licença pedagogica. Todo e qualquer equipamento requesitado será providenciado. 
 
-* **PC03 — Lingua** A plataforma suporta os idiomas português, inglês e francês, sendo o português o idioma predefinido.
+* **PC03 — Lingua** - A plataforma suporta os idiomas português, inglês e francês, sendo o português o idioma predefinido.
 
-* **PC04 — Custo** O projecto terá um custo de três salários de desenvolvedores e um para o orientador do projeto durante o tempo de vida útil do projeto, isto envolve também manuntençao da plataforma.
+* **PC04 — Custo** - O projecto terá um custo de três salários de desenvolvedores e um para o orientador do projeto durante o tempo de vida útil do projeto, isto envolve também manuntençao da plataforma.
 
-* **PC05 — Beneficio** O projecto vai trazer valor aos produtores locais e experiência aos desevolvedores do projeto.
+* **PC05 — Beneficio** - O projecto vai trazer valor aos produtores locais e experiência aos desevolvedores do projeto.
 
 [Back Home](Home)
