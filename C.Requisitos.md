@@ -32,7 +32,7 @@ The login use case will provide the user authentication and is expected to be im
 
 * **CdU01.11 - Valida Produtor** - O administrador valida o registo do produtor.
 
-* **CdU01.12 - Elimina Produtor** - O admininstraddor elimina o registo do produtor.
+* **CdU01.12 - Elimina Produtor** - O admininstraddor elimina o registo do produtor. Caso o produtor não cumpra os criterios de qualidade estabelecidos, a camâra poderá eliminar o produtor, entre outras razões que a camâra poderá utilizar está funcionalidade.
 
 * **CdU01.13 - Consulta Stock** - O administrador e o produtor, consultam o stock dos produtos de forma a gerir a disponibilidade dos mesmo na plataforma.
 
@@ -54,15 +54,15 @@ Asseguir, uma breve descrição de cada caso de uso:
 
 * **CdU02.2 — Apagar artigos** — O cliente tem a possibilidade de apagar artigos no carrinho
 
-* **CdU02.3 — Editar artigos** — Caso o produtor não cumpra os criterios de qualidade estabelecidos, a camâra poderá eliminar o produtor, entre outras razões que a camâra poderá utilizar está funcionalidade
+* **CdU02.3 — Editar artigos** — Editar os artigos qu estejam no seu carrinho.
 
-* **CdU02.4 — Adicionar artigos** — O administrador deve ser capaz de extrair a morada do cliente para o envio da encomenda.
+* **CdU02.4 — Adicionar artigos** — O Cliente adiciona os artigos nos seu carrinho conforme a sua preferência.
 
-* **CdU02.5 — Ver Itens** — O cliente insere, após efetuar a sua seleção de artigos, visualiza os mesmos de forma a confirmar a escolhas.
+* **CdU02.5 — Ver Itens** — Após efetuar a sua seleção de artigos, visualiza os mesmos de forma a confirmar a escolhas.
 
 * **CdU02.6 — Confirmar dados de envio** — Após a visualização e confirmação dos itens escolhidos, o cliente confirma os dados de envio.
 
-* **CdU02.7 - Efetua Compra** — Depois de confirmar a sua encomenda e modade de envio, o cliente submete a dua compra.
+* **CdU02.7 - Efetuar Compra** — Depois de confirmar a sua encomenda e forma de envio, o cliente submete a sua compra.
 
 * **CdU02.8 — CheckOut** — Depois de submeter a compra, é apresentado ao cliente os dados para o pagamento da mesma e os tipos de pagamento.
 
