@@ -10,7 +10,18 @@ O foco principal desta plataforma e-commerce, é que seja de fácil utilização
 
 # Preparação do Product Backlog (PB)
 
-* **PB01 - Criação **  
+
+**PB Codigo**   |   **PB Nome** |   **Prioridade** 
+-----|-----|----- 
+PB001           |   Registar cliente    |   Must    
+PB002           |   Selecionar produtos |   Must    
+PB003           |   Selecionar método de pagamento  |   Should  
+PB004           |   Validar e autorizar no sistema a venda  |   Must    
+PB005   |   Validar Moradas de entrega   |  Must       
+PB006   |   Incluir produtos   |    Must     
+PB007   |   Historicos de compras   |   Could         
+PB008   |   Avaliar comerciantes    |   Could       
+PB009   |   Email confirmação      |     Could
 
 
 ## Prioridadedos Cdu
