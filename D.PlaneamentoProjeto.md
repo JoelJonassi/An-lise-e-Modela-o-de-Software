@@ -9,6 +9,8 @@ INCLUIR IMAGEM
 
 # Preparação do Product Backlog (PB)
 
+* **PB01 -**  
+
 
 ## Prioridadedos Cdu
 
