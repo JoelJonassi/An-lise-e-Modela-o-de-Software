@@ -61,22 +61,30 @@ INCLUIR DIGRAMA DE CASO DE USO "PRODUTOR"
 * **CdU02.5 — ** — .
 
 
-## Regras de Negocio
-As Regras de Negoçio (RN) são a fonte de muitas decisõse de negoçios. Podem alterar a qualquer momemnto e podem impactar mais do que casos de uso. É importante seguir e identifica-los.
-* **RN01 — custo do produto** — O Custo do produto pode alterar de acordo com o conselho em o cliente resida, caso este não seja do municipio lhe será cobrado uma taxa 0.01% por quilometro.
+## Requisitos Técnicos
+
+Nesta secção foram incluidas as regras de negoçio, os requistos não-funcionais, os constragimentos e também inclui os pressupostos que foram assumidos pela equipa.
+
+## Regras de Negoçio
+As Regras de Negoçio (RN) são a fonte de muitas decisõse de negoçios. Podem alterar a qualquer momento e podem impactar mais do que casos de uso. É importante seguir e identifica-las.
+
+* **RN01 — Custo do produto** — O Custo do produto pode alterar de acordo com o municipio que o cliente resida, caso este não pertença ao municipio que aderir a plataforma, lhe será cobrado uma taxa 0.01% do custo da encomenda por quilometro.
 
 * **RN02 — Escolher produto** — Após as 15.00pm, as encomendas que o cliente fizer serão enviados no dia seguinte.
 
 * **RN03 — Maximo de produtos por dia** — By day, Each user can buy two tickets to each meal, lunch or dinner.
 
-* **RN04 — Tempo para Cancelar Encomenda** — A encomenda pode ser cancelada antes das 14:30pm caso tenha feito a encomenda no dia anterior apartir das 15:00pm até 14:30 do dia em causa.
+* **RN04 — Cancelar Encomenda** — A encomenda pode ser cancelada antes das 14:30pm caso tenha feito a encomenda no dia anterior apartir das 15:00pm até 14:30 do dia em causa.
+
+* **RN05 — Transporte da Encomenda** — A camâra municipal é responsavel pela recolha dos produtos a casa/armazém dos produtores e envio aos clientes. 
+
+* **RN05 — Transporte da Encomenda** — As encomendas podem ser feitas apenas por clientes estiverem registados na plataforma.
 
 * **RN05 — Outras regras a serem validadas pelo sistema** — ...
 Etc.
 
+  
 
-## Technical requirements
-INTRO................:
 
 ## Requisitos Não Funcionais
 
