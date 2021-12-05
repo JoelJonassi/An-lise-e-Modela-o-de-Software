@@ -94,15 +94,22 @@ Asseguir, uma breve descrição de cada caso de uso:
 * **CdU03.10 — Recebe encomenda** — O cliente procede à receção da sua encomenda.
 
 ## Regras de Negocio
-As Regras de Negoçio (RN) são a fonte de muitas decisõse de negoçios. Podem alterar a qualquer momemnto e podem impactar mais do que casos de uso. É importante seguir e identifica-los.
+As Regras de Negoçio (RN) são a fonte de muitas decisões de negoçios. Podem alterar a qualquer momemnto e podem impactar mais do que casos de uso. É importante seguir e identifica-los.
 
-* **RN01 — custo do produto** — O Custo do produto pode alterar de acordo com o conselho em o cliente resida, caso este não seja do municipio lhe será cobrado uma taxa 0.01% por quilometro.
+* **RN01 — Custo da encomenda** — O Custo da encomenda pode alterar de acordo com o municipio em o cliente resida, caso este não pertença ao municipio que aderir a plataforma, lhe será cobrado uma taxa 0.01% por quilometro.
 
 * **RN02 — Escolher produto** — Após as 15.00pm, as encomendas que o cliente fizer serão enviados no dia seguinte.
 
-* **RN03 — Maximo de produtos por dia** — By day, Each user can buy two tickets to each meal, lunch or dinner.
-
 * **RN04 — Tempo para Cancelar Encomenda** — A encomenda pode ser cancelada antes das 14:30pm caso tenha feito a encomenda no dia anterior apartir das 15:00pm até 14:30 do dia em causa.
+
+* **RN05 - Desconto** - Por cada compra acima de 50 euros o cliente tem 5% de desconto.
+
+* **RN06 - Devoluções** - O produtor que tiver um número 25% de devoluções deve ser notificado, 50% deve ser banido sistema.
+
+* **RN07 - Transporte** - O processo de recolha e envio dos produtos é efetuado uma vez por dia como forma de promover a sustentabilidade ambiental.
+
+* **RN08 - Comprar** - Só pode usufruir da plataforma o cliente que estiver registado.
+
 
 ## Requisitos Técnicos
 
