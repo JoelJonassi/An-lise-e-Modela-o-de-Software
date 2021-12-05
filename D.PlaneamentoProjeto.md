@@ -17,7 +17,7 @@ PB001           |   Registar cliente    |   Must
 PB002           |   Selecionar produtos |   Must    
 PB003           |   Validar e autorizar no sistema a venda  |   Must    
 PB004   |   Validar Moradas de entrega   | Must  
-   PB005   |   Incluir produtos   |    Must
+PB005   |   Incluir produtos para venda    |    Must
 PB006           |   Selecionar método de pagamento  |   Should    
 PB007   |   Historicos de compras   |   Could         
 PB008   |   Avaliar comerciantes    |   Could       
