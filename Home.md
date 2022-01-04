@@ -2,7 +2,6 @@
 
 O Projeto será realizado por um grupo contendo três elementos e tem como o seu ponto fulcral a análise e modelação de software.
 
-
 ![Business_Online.png](https://bitbucket.org/repo/y5rxLzz/images/1907952730-Business_Online.png)
 
 Consistirá em 3 etapas:
@@ -20,3 +19,7 @@ C. [Requisitos](C.Requisitos.md)
 D. [Planeamento do projeto](D.PlaneamentoProjeto.md)
 
 * Sprint03 — Implementação
+E. [Requisitos](C.Requisitos.md)
+
+F. [Planeamento do projeto](D.PlaneamentoProjeto.md)
+
