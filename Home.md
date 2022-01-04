@@ -19,7 +19,8 @@ C. [Requisitos](C.Requisitos.md)
 D. [Planeamento do projeto](D.PlaneamentoProjeto.md)
 
 * Sprint03 — Implementação
-E. [Requisitos](C.Requisitos.md)
 
-F. [Planeamento do projeto](D.PlaneamentoProjeto.md)
+E. [Planeamento da Sprint](E.PlaneamentoSprint.md)
+
+F. [Planeamento do projeto](F.DocumentaçãoSoftware.md)
 
