@@ -15,38 +15,37 @@ Em ordem para prepar o próximo sprint, os casos de uso são pedaço das user st
 
 In order to prepare the next sprint, the UC are split into user stories. For each use case, the set of user stories must complete the use case full behaviour. 
 
-Considerando a prioridade da table dos casos de uso, 2 são de alta prioridade.
+Considerando a prioridade da table dos casos de uso,  17 são de alta prioridade neste caso consideraremos apenas 4 casos de uso.
 
 Considering the UC prioritization table, 2 UC are in high priority.
 
 
 ##  Caso de uso:  Valida Produtor(Cdu01.11)
-Cdu01.12 | Elimina Produtor 
-For each UC, we need to develop the narrative, drill it down into smaller user stories, and write the acceptance test list. 
 
-Para cada Uc, precissamos desenvolver a narrativ , em pequenos user stories, e escrever os testes de aceitação.
+Para cada caso de uso, precissamos desenvolver a narrativa , em pequenos user stories, e escrever os testes de aceitação.
 
-### Narrative of UC1.01
+### Narrativa da Cdu1.01
 
 Basic Flow | Alternative Flows
 -----|-----
-1 Escolher produto | A1. 
-2 Show menu | A2. Select different canteen
-3 Select dish | A3. No menu in selected date
-4 Create a new ticket | A4. Insufficient account balance
-5 Update user account | ...
+1 Selecionar Produtor | A1.
+2 Mostrar Produtores | A2. Select different canteen
+3 Validar Registo | A3. No menu in selected date
+4 Criar novo registo | A4. Insufficient account balance
+5 Atualizar Registo | ...
 
-### User stories for UC1.01
+### User stories para Cdu1.01
+Cada user story forma o item do trabalho claro para o cliente.
 Each user story form a work item that is of clear value to the customer.
 
-**US1.1a** As a user, I want to buy a meal ticket so that I can take my lunch/dinner meal on IPCA Campus.
+**US1.1a** como gerente, quero validar os produtores que podem vender na plataforma.
 
-**US1.1b** As a user, I want to buy the meal tickets for lunch/dinner to the week and for any IPCA's canteen, so that I just need to worry once a week and do not forget to buy any ticket.
+**US1.1b** Como gerente, quero ver a quantidade de produtores na plataforma. 
 
 **US1.1c** As a user, I want to buy a meal ticket even when my account balance is not enough, so that I avoid to pay the extra price of the ticket purchased at the POS.
 
 
-### Acceptance tests for US1.1a Default date meal (Purchase ticket)
+### Testes de aceitação para US1.1a Default date meal (Purchase ticket)
 
 * Try to create a ticket without existing menu
 * Try different dish options
@@ -54,7 +53,7 @@ Each user story form a work item that is of clear value to the customer.
 * Check the user credit was correctly updated
 * Verify the ticket refers the current date and selected dish
 
-### Acceptance tests for US1.1b Select canteen and day (Purchase ticket)
+### Testes de aceitação for US1.1b Select canteen and day (Purchase ticket)
 
 * Try different dates: current day, past days, future days with menu and future days without menu
 * Try for different canteens
@@ -69,10 +68,10 @@ Next, the details of UC 2.01.
 
 
 ## User stories for UC1.01 and UC 2.01
-## User stories para UC 1.01
+## User stories para Cdu 2.01
 
 
-**US2.1a** As a cashier, I want to validate the user ticket so that I can confirm the user can receive a meal.
+**US2.1a** Como administrador quero eliminar os produtores, que não estão na activa a mais de 6 meses dentro da plataforma.
 
 **US2.1b** As a cashier, I want check the user tickets so that I can consult the user login, the account balance and the last tickets bought by the user.
 
@@ -86,7 +85,13 @@ Next, the details of UC 2.01.
 
 
 ### Narrative of UC2.01
-
+Basic Flow | Alternative Flows
+-----|-----
+1 Selecionar Produtos | A1.
+2 Mostrar Produtor | A2. Select different canteen
+3 Adicionar produtos ao carrinho | A3. No menu in selected date
+4 Efetua  a encomenda | A4. Insufficient account balance
+5 Cancelar a encomenda | ...
 
 
 ## User stories for UC1.01 and UC 2.01
@@ -153,7 +158,7 @@ Each user story form a work item that is of clear value to the customer.
 A tabela asseguir inclui as user stories dos casos de uso ..
 
 
-UC | User story | Flows | estimate | 3rd SB
+Cdu | User story | Fluxos | estimativa | 3rd SB
 --- | --- | --- | --- | ---
 1.1 Purchase ticket|1.1a Default date meal|BF |3d|X
 1.1 Purchase ticket|1.1b Select canteen and day|BF, A1, A2|2d|X

@@ -13,7 +13,7 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
  
  O Diagrama abaixo ilustra as entidades que foram consideradas na primeira fase "1º Sprint", para a implementação do projeto.
 
-![Diagrama_dominio.png](https://bitbucket.org/repo/y5rxLzz/images/2442497753-Diagrama_dominio.png)
+![Diagrama_dominio.png](Diagramaominio.png)
 
 
 # Definições
@@ -24,28 +24,11 @@ O diagrama inicial permite dar vislumbre do projecto, mostrando as entidades do 
 
 * **Cliente** - O comprador do produto.
 
-* **Camara Municipal** - Entidade que valida um produtor, nediante assinatura presencial e validade de possuir produtos locais.
-  
-* **Login** - Para os utilizadores da plataforma poderem usufruir devem estar registados, para fazer uma encomenda devem ter iniciado a sessão na plataforma.
-
-* **Presença** - Prova presencial que o produtor deve fazer, para ser validada a sua conta na plataforma como sendo produtor.
   
 * **Produto** - Alimento especifico, preço.
 
 * **Categoria** - Categoria de alimentos.
   
-* **Consultar** - Funcionalidade que permite a câmara municipal consultar os produtos em stock.
-  
-* **Stock** - Produto disponivel para venda.
-  
-* **Carrinho** - No processo de escolha dos produtos o cliente pode coloca-los no carrinho.
-
-* **Pagamento** - Transação eletrónica, que permite pagar produto.
-  
-* **Fatura** - Após o pagamento é emitida uma fatura para o cliente.
-
-* **Transporte do Produto** - Meio de transporte para o envio das encomendas.
-
 * **Encomenda** - Conjunto de produtos.
 
   
