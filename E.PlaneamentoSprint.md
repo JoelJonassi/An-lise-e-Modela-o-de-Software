@@ -155,17 +155,17 @@ Each user story form a work item that is of clear value to the customer.
 
 ## Planeamento da Sprint
 
-A tabela asseguir inclui as user stories dos casos de uso ..
+A tabela asseguir inclui as user stories dos casos de uso considerados.
 
 
 Cdu | User story | Fluxos | estimativa | 3rd SB
 --- | --- | --- | --- | ---
-1.1 Purchase ticket|1.1a Default date meal|BF |3d|X
-1.1 Purchase ticket|1.1b Select canteen and day|BF, A1, A2|2d|X
-1.1 Purchase ticket|1.1c Not enough credit|BF, A3, A4|4h|
-2.1 Validate ticket|2.1a Valid ticket|BF|2d|X
-2.1 Validate ticket|2.1b No ticket available|BF, A1, A2, A3|1d|
-2.1 Validate ticket|2.1c Insufficient account balance|BF, A4|2d|
+02.06 Efetuar compra|1.1a Default date meal|BF |3d|X
+1.1 Purchase ticket|1.1b Esolher o produto|BF, A1, A2|2d|X
+1.1 Purchase ticket|1.1c Produto indiponivel|BF, A3, A4|4h|
+2.1 Validar encomenda|2.1a Encomenda paga|BF|2d|X
+2.1 Validate ticket|2.1b Encomenda a espera de pagamento|BF, A1, A2, A3|1d|
+2.1 Validate ticket|2.1c Paga aguarda o envio|BF, A4|2d|
 
 
 [Back Home](Home)
