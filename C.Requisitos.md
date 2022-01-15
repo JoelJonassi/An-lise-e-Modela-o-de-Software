@@ -110,6 +110,9 @@ As Regras de Negoçio (RN) são a fonte de muitas decisões de negoçios. Podem 
 
 * **RN08 - Comprar** - Só pode usufruir da plataforma o cliente que estiver registado.
 
+* **RN09 - Prova presencial** - Qulaquer o produtor deve fazer prova presencial a camara, para ser validada a sua conta na plataforma como sendo produtor.
+  
+
 
 ## Requisitos Técnicos
 
