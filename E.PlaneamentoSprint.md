@@ -22,63 +22,68 @@ Considering the UC prioritization table, 2 UC are in high priority.
 
 ##  Caso de uso:  Novo Registo(Cdu1.01)
 Cdu01.01 | Novo Registo  
-Como utilizador poderei criar uma conta na plataforma.
-  
+
 ### Narrative of UC1.01
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
-1 Preeencher dados | A1. Conta não registada no sistema
+1 Preencher dados | A1. Conta não registada no sistema
 2 Guardar registo | A2. Credênciais erradas
-3 Atualizar registo | A3. Emailo não verificado
-4 Carrega foto | 
+3 Atualizar registo | A3. Email não verificado
+4 Carrega foto | A4. 
 
 ### User stories para Cdu1.01
-Cada user story forma o item do trabalho claro para o cliente.
-Each user story form a work item that is of clear value to the customer.
+Como utilizador poderei criar e registar os meus dados na plataforma onde posso entrar e comprar os produtos.  
 
-**US1.1a** como gerente, quero validar os produtores que podem vender na plataforma.
+**US1.1a** Como novo utilizador sou encaminhado para registar uma conta na plataforma.
 
-**US1.1b** Como gerente, quero ver a quantidade de produtores na plataforma. 
+**US1.1b** Como utilizador, consigo fazer login e começar a comprar produtos.
 
-**US1.1c** As a user, I want to buy a meal ticket even when my account balance is not enough, so that I avoid to pay the extra price of the ticket purchased at the POS.
+**US1.1c** Como utilizador consigo ver o meu nome e fotografia depois de entrar na página.
 
+### Testes de aceitação para US1.1a (Novo registo)
 
-### Testes de aceitação para US1.1a Default date meal (Purchase ticket)
+* Tentar não inserir dados nos campos obrigatoriose mostar mensagem de erro
+* Tentar não registar/validar email
+* Verificar se todos os dados foram preenchidos corretamente
 
-* Try to create a ticket without existing menu
-* Try different dish options
-* Check the ticket was correctly created for the user
-* Check the user credit was correctly updated
-* Verify the ticket refers the current date and selected dish
+### Testes de aceitação for US1.1b (Novo registo)
 
-### Testes de aceitação for US1.1b Select canteen and day (Purchase ticket)
+* Verificar quando loggado nao é reencaminho para nenhuma página de registo
 
-* Try different dates: current day, past days, future days with menu and future days without menu
-* Try for different canteens
-* Verify the ticket refers the selected date and canteen
+### Testes de aceitação for US1.1c (Novo registo)
 
+* Verificar dados corretos
 
-##  Caso de uso: Elimina Produtor(Cdu01.12)
-Next, the details of UC 2.01.
+##  Caso de uso: Gerir Carrinho(Cdu02.01)
+Cdu02.01 | Gerir Carrinho
 
 ### Narrative of UC2.01
 
-
+Fluxos Básicos | Fluxos Alternativos
+-----|-----
+1 Inserir produto no carrinho | A1. Produto inválido
+2 Eliminar produto | A2. Produto continua no carrinho 
+3 Mostrar carrinho | A3. carrinho vazio
+4 Mostrar total | A4. Preços inválidos
 
 ## User stories for UC1.01 and UC 2.01
-## User stories para Cdu 2.01
+## User stories para Cdu 2.01  
+Como utilizador, posso comprar qualquer produto na plataforma.
 
+**US2.01a** Como utilizador posso consultar minha dashboard para ver as minhas compras.
 
-**US2.1a** Como administrador quero eliminar os produtores, que não estão na activa a mais de 6 meses dentro da plataforma.
+**US2.01b** Como utilizador consigo comprar qualquer produto disponivel na plataforma
 
-**US2.1b** As a cashier, I want check the user tickets so that I can consult the user login, the account balance and the last tickets bought by the user.
-
-**US2.1c** As a cashier, I want to validate the ticket of a user with negative account balance, so that the user can load money to his/her account to get access to the meal.
+**US2.01c** 
 
 ### Acceptance tests for US2.1a
 ### Testes de aceitação
 
+* Tentar efetuar compra com carrinho vazia
+* Verificar se existe botão para efetuar compra
+* Verificar se total da compra é visivel
+* Verificar se preço dos produtos é visível
 
 ##  Caso de uso: Efetuar Compra (Cdu02.06)
 
@@ -105,6 +110,8 @@ Basic Flow | Alternative Flows
 
 ### Acceptance tests for US2.1a
 ### Testes de aceitação
+
+
 
 
 
