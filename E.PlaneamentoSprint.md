@@ -20,21 +20,18 @@ Considerando a prioridade da table dos casos de uso, 2 são de alta prioridade.
 Considering the UC prioritization table, 2 UC are in high priority.
 
 
-##  Caso de uso:  Valida Produtor(Cdu01.11)
-Cdu01.12 | Elimina Produtor 
-For each UC, we need to develop the narrative, drill it down into smaller user stories, and write the acceptance test list. 
-
-Para cada Uc, precissamos desenvolver a narrativ , em pequenos user stories, e escrever os testes de aceitação.
-
+##  Caso de uso:  Novo Registo(Cdu1.01)
+Cdu01.01 | Novo Registo  
+Como utilizador poderei criar uma conta na plataforma.
+  
 ### Narrative of UC1.01
 
-Basic Flow | Alternative Flows
+Fluxos Básicos | Fluxos Alternativos
 -----|-----
-1 Escolher produto | A1. 
-2 Show menu | A2. Select different canteen
-3 Select dish | A3. No menu in selected date
-4 Create a new ticket | A4. Insufficient account balance
-5 Update user account | ...
+1 Preeencher dados | A1. Conta não registada no sistema
+2 Guardar registo | A2. Credênciais erradas
+3 Atualizar registo | A3. Emailo não verificado
+4 Carrega foto | 
 
 ### User stories for UC1.01
 Each user story form a work item that is of clear value to the customer.
