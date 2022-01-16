@@ -30,13 +30,13 @@ A seguinte figura demostra o processo de inserção dos dados neccessários para
 
 ## Class model
 
-Based on the domain model, we need to develop a detailed class diagram. The diagram does not need to be complete, but should comprise the all the classes involved in the sprint.
-The class diagram includes also the boundary and control classes for both use cases.
+Baseada no modelo de dominio, foi elaborado um diagrama da maquina de estados da classe de Encomenda. 
+Foi escoilhida esta classe com base na importância para o projeto. 
 
-![ClassD](images/ClassDiagram.png)
+![image](Images/diagramaEstado.png)
 
-When the user loads money to the system, his/her account balance in that instant is calculated and stored with the money load data.
-We assume that the account balance is calculated based on the last money load, from which the tickets purchased after that moment are subtracted.
+Quando o cliente faz a abertura da encomenda pode inserir items á encomenda ou não realiza a encomenda.
+Assim que inicia o pedido, aguarda-se o pagamento. Após recesseção do pagamento, o pedido de encomenda é realizado. Senão o pedido será cancelado. 
 
 ## Novo Registo (UC1.01) Sequence Diagram
 
