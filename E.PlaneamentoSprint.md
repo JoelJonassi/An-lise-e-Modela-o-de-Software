@@ -128,23 +128,23 @@ Como produtor posso ser possso validado na plataforma para vender os meus produt
 
 ## Planeamento da Sprint
 
-A tabela asseguir inclui as user stories dos casos de uso considerados.
+A tabela asseguir inclui as user stories dos casos de uso considerados. BF corresponde ao fluxo básico e A# corresponde aos fluxos alternativos. O terceiro sprint backlog incluirá os casos de uso marcados com "X".
 
 Cdu | User story | Fluxos | estimativa | Terceiro SB
 --- | --- | --- | --- | ---
-1.01 Valida Produtor| 1.1a criar conta | BF, A1, A2, A3| 4d | x|
-1.01 Valida Produtor| 1.1b verificar conta | BF, A2| 4d | x|
-1.11 Valida Produtor| 1.1c validar conta | BF| 4d | x|
-1.11 Valida Produtor| 1.1d ver produtos | BF, A3| 3d | x|
-1.11 Valida Produtor| 1.1e eliminar conta | BF, A3, A4| 4d | x|
+1.01 Valida Produtor| 1.1a criar conta | BF, A1, A2, A3| 4d | |
+1.01 Valida Produtor| 1.1b verificar conta | BF, A2| 4d | |
+1.11 Valida Produtor| 1.1c validar conta | BF| 4d | X|
+1.11 Valida Produtor| 1.1d ver produtos | BF, A3| 3d | X|
+1.11 Valida Produtor| 1.1e eliminar conta | BF, A3, A4| 4d | X|
 2.01 Gerir Carrinho| 2.1a carrinho vazio |BF, A1|2d|X|
-2.01 Gerir Carrinho| 2.1b consultar carrinho |BF|4d|
+2.01 Gerir Carrinho| 2.1b consultar carrinho |BF|4d|X|
 2.01 Gerir Carrinho| 2.1c apagar itens no carrinho|BF, A4|7h|
 2.06 Efetuar compra| 1.1a produtos mais vendidos |BF |4d|X|
 2.06 Efetuar compra| 1.1b Escolher o produto |BF, A1|3d|X|
-2.06 Efetuar compra| 1.1c Escolher o produtor |BF, A3, A4|6d|
+2.06 Efetuar compra| 1.1c Escolher o produtor |BF, A3, A4|6d|X|
 2.06 Efetuar compra| 1.1d Produto indiponivel |BF, A5|2d|
-2.06 Efetuar compra| 1.1e Adicionar item no carrinho |BF, A4|3d|
+2.06 Efetuar compra| 1.1e Adicionar item no carrinho |BF, A4|3d|X|
 2.06 Efetuar compra| 1.1f Erro codigo-postal |BF, A4|5d|
 
 [Back Home](Home)
