@@ -2,7 +2,7 @@
 
 ##  Caso de uso:  Novo Registo(Cdu1.01)
 
-### Narrativa da UC1.01
+### Narrativa da Cdu1.01
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
@@ -11,6 +11,7 @@ Fluxos Básicos | Fluxos Alternativos
 3 Atualizar registo | A3. Email não verificado
 
 ### User stories para Cdu1.01
+
 Como utilizador poderei criar e registar os meus dados na plataforma onde posso entrar e comprar os produtos.  
 
 **US1.1a** Como novo utilizador sou encaminhado para registar uma conta na plataforma
@@ -39,7 +40,7 @@ Como utilizador poderei criar e registar os meus dados na plataforma onde posso 
 
 ##  Caso de uso: Gerir Carrinho(Cdu02.01)
 
-### Narrativa da UC2.01
+### Narrativa da Cdu2.01
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
@@ -80,7 +81,7 @@ Basic Flow | Alternative Flows
 4 Confirmação de dados | A4. Dados errados
 5 Cancelar a encomenda | A5 Sem encomenda efetuada
 
-## User stories para UC2.06
+## User stories para Cdu2.06
 
 **US2.06a** Como utilizador quero terminar a seleção de artigos para efetuar a compra
 
@@ -102,7 +103,7 @@ Basic Flow | Alternative Flows
 
 ##  Caso de uso: Valida Produtor(CdU1.11)
 
-### Narrativa da UC1.11
+### Narrativa da Cdu1.11
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
@@ -111,7 +112,7 @@ Fluxos Básicos | Fluxos Alternativos
 3 Mostrar items do produtor | A3. Carrinho vazio
 4 Mostrar total | A4. Preços inválidos
 
-## User stories para UC 1.11
+## User stories para  Cdu1.11
 
 Como produtor posso ser validado na plataforma para vender os meus produtos
 
