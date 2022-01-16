@@ -98,6 +98,7 @@ Basic Flow | Alternative Flows
 * Verificar items selecionados permanecem na encomenda
 
 
+
 ##  Caso de uso: Valida Produtor(CdU1.11)
 
 ### Narrativa da UC1.11
@@ -109,7 +110,6 @@ Fluxos Básicos | Fluxos Alternativos
 3 Mostrar items do produtor | A3. Carrinho vazio
 4 Mostrar total | A4. Preços inválidos
 
-
 ## User stories para UC 1.11
 
 Como produtor posso ser validado na plataforma para vender os meus produtos
@@ -117,7 +117,6 @@ Como produtor posso ser validado na plataforma para vender os meus produtos
 **US1.11a**  Como produtor adiciono/elimino os meus produtos na plataforma para venda
 
 **US1.11b** Coomo produtor dou a conhecer os meus produtos para a comunidade 
-
 
 ### Testes de aceitação US1.11a
 * Verificar botão de registo para produtor
