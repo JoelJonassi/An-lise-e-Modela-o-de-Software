@@ -5,18 +5,27 @@ This document presents the project design artifacts developed to support the sof
 ## Interface mockups
 THe interface mockups help to to better understand the features to be created.
 
-### Mockup for UC1.01
+### Mockup for UC1.01a
 
-The next figure presents the mockup for the "Purchase ticket" use case. The user will access the canteen tickets system through the web. The menu will update if any change to the date, canteen or meal type (lunch / dinner).
+A seguinte figura apresenta o mockup para o use case "Novo Registo". O cliente acede ao sistema por um browser.
 
-![Mockup01](images/Mockup01.png)
+![image](Images/Mockup_Login.JPG)
 
+### Mockup for US1.1b 
 
-### Mockup for UC2.01
+Como utilizador tenho que fazer login para começar a comprar produtos.
 
-The next figure presents the mockup for the "Purchase ticket" use case. The cashier will access the canteen tickets system using a windows desktop application.
+A seguinte figura apresenta o mockup para o use case "Login". O cliente efectua login para efectuar compras. O cliente pode analizar o carrinho de compras antes de submeter a ordem de compra, remover produtos ou continuar o processo de compra de mais artigos.
 
-![Mockup02](images/Mockup02.png)
+![image](Images/Mockup_Compra.JPG)
+
+### Mockup for US1.1c 
+
+Como utilizador tenho que fazer login para que possa completar o meu processo de registo acedeendo ao meu perfil e inserindo os dados necessários na minha conta.
+
+A seguinte figura demostra o processo de inserção dos dados neccessários para que possa completar o processo de registo.
+
+![image](Images/Mockup_Registo.JPG)
 
 
 ## Class model
@@ -29,22 +38,16 @@ The class diagram includes also the boundary and control classes for both use ca
 When the user loads money to the system, his/her account balance in that instant is calculated and stored with the money load data.
 We assume that the account balance is calculated based on the last money load, from which the tickets purchased after that moment are subtracted.
 
-## Purchase ticket (UC1.01) Sequence Diagram
+## Novo Registo (UC1.01) Sequence Diagram
 
-The following sequence diagram do not represent all possible interactions, just the basic flow and A1&A2 alternative flows.
+O seguinte diagrama de sequência não apresenta todas as possíveis interações mas sim as básicas.
 
-![Sequence01](images/SequencePurchase.png)
+![image](Images/Diagrama_Seq_Registo.JPG)
 
-## Validate ticket (UC2.01) Sequence Diagram
-The following sequence diagram do not represent all possible interactions, but the basic flow.
+## Caso de uso: Valida Produtor(CdU1.11) Sequence Diagram
 
-![Sequence02](images/SequenceValidate.png)
+O seguinte diagrama de sequência interações básicas do caso de uso Valida Produtor.
 
-## State diagrama for the Ticket
-
-The ticket can have different states according to the following diagram. An open ticket can be cancelled according to the conditions referred in BR04.
-The price of the meal ticket is charged even when the user do not get the meal (ticket not used), so we assume the composite state "Charged" for both cases.
-
-![StatesD](images/CanteenStates.png)
+![image](Images/Diagrama_Validar_produtor.JPG)
 
 [Back Home](Home)

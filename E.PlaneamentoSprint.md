@@ -17,7 +17,7 @@ Como utilizador poderei criar e registar os meus dados na plataforma onde posso 
 
 **US1.1b** Como utilizador consigo fazer login para começar a comprar produtos
 
-**US1.1c** Como utilizador consigo ver o meu nome e email, depois de entrar na página
+**US1.1c** Como utilizador tenho que fazer login para que possa completar o meu processo de registo.
 
 ### Testes de aceitação da US1.1a (Novo registo)
 
