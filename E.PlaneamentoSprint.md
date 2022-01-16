@@ -1,28 +1,6 @@
-# TEM MAIS HAVER COM REQUISITOS
-Escolher 4 casos de uso em ordem de prioridade 
-Fazer narrativas 
-
-Fuxos alternativos
-    A cocorrencia de erros
-    funcionalidades adicionais fora do fluxo base
-
- # Sprint planning & documentation
-
-Durante o planeamento da soprint, os casos de uso são detalhados no desenvolvimento das narrativas
-During the sprint planning, the use higl priority use cases are detailed through the development of narratives.
-
-Em ordem para prepar o próximo sprint, os casos de uso são pedaço das user stories. Para cada user case, é definido user sotory que deve completar o comportamento total do caso de uso.
-
-In order to prepare the next sprint, the UC are split into user stories. For each use case, the set of user stories must complete the use case full behaviour. 
-
-Considerando a prioridade da table dos casos de uso,  17 são de alta prioridade neste caso consideraremos apenas 4 casos de uso.
-
-Considering the UC prioritization table, 2 UC are in high priority.
-
-
+# PLANEAMENTO DA SPRINT E DOCUMENTAÇÃO
 
 ##  Caso de uso:  Novo Registo(Cdu1.01)
-Cdu01.01 | Novo Registo  
 
 ### Narrativa da UC1.01
 
@@ -59,7 +37,6 @@ Como utilizador poderei criar e registar os meus dados na plataforma onde posso 
 
 
 ##  Caso de uso: Gerir Carrinho(Cdu02.01)
-Cdu02.01 | Gerir Carrinho
 
 ### Narrativa da UC2.01
 
@@ -92,9 +69,8 @@ Como utilizador, posso comprar qualquer produto na plataforma eleminando ou adic
 
 
 ##  Caso de uso: Efetuar Compra (Cdu02.06)
-Cdu02.06 | Efetuar Compra
 
-### Narrative of UC2.01
+### Narrativa de UC2.06
 Basic Flow | Alternative Flows
 -----|-----
 1 Comprar items selecionados | A1. Carrinho vazio 
@@ -103,70 +79,54 @@ Basic Flow | Alternative Flows
 4 Confirmação de dados | A4. Dados errados
 5 Cancelar a encomenda | A5 Sem encomenda efetuada
 
+## User stories para UC2.06
 
-## User stories for UC1.01 and UC 2.01
-## User stories para UC 1.01
+**US2.06a** Como utilizador quero terminar a seleção de artigos para efetuar a compra
 
+**US2.06b** Como utilizador quero comprar sem falhas de segurança para comprar novamente
 
-**US2.1a** Como utilizador quero terminar a seleção de artigos para efetuar a compra
+**US2.06c** Como utilizador posso comprar todo os items para não ter que me deslocar ao mercado
 
-**US2.1b** Como utilizador quero comprar sem falhas de segurança para comprar novamente
-
-**US2.1c** Como utilizador posso comprar todo os items para não ter que me deslocar ao mercado
-
-### Testes de aceitação US2.1a
+### Testes de aceitação US2.06a
 * Verificar botão de confirmção de compra ou selecionar mais items
 * Verificar botão para pagamento
 
-### Testes de aceitação US2.1b
+### Testes de aceitação US2.06b
 * Verificar quando inseridos os dados do cartão de pagamento do cliente não existe falhas de segurança na plataforma
 
-### Testes de aceitação US2.1c
+### Testes de aceitação US2.06c
 * Verificar items selecionados permanecem na encomenda
 
 
-##  Caso de uso: Efetuar Compra (Cdu02.06)
-Next, the details of UC 2.01.
+##  Caso de uso: Valida Produtor(CdU1.11)
 
-### Narrative of UC2.01
+### Narrativa da UC1.11
 
-
-
-## User stories for UC1.01 and UC 2.01
-## User stories para UC 1.01
-
-Each user story form a work item that is of clear value to the customer.
-
-**US2.1a** As a cashier, I want to validate the user ticket so that I can confirm the user can receive a meal.
-
-**US2.1b** As a cashier, I want check the user tickets so that I can consult the user login, the account balance and the last tickets bought by the user.
-
-**US2.1c** As a cashier, I want to validate the ticket of a user with negative account balance, so that the user can load money to his/her account to get access to the meal.
-
-### Acceptance tests for US2.1a
-### Testes de aceitação
-
-Cdu03.03 | Valida encomenda
-##  Caso de uso: Valida encomenda(Cdu03.03)
-Next, the details of UC 2.01.
-
-### Narrative of UC2.01
+Fluxos Básicos | Fluxos Alternativos
+-----|-----
+1 Registar produtor | A1. Produtor registado
+2 Eliminar produtor | A2. Produtor continua na base de dados 
+3 Mostrar items do produtor | A3. Carrinho vazio
+4 Mostrar total | A4. Preços inválidos
 
 
+## User stories para UC 1.11
 
-## User stories for UC1.01 and UC 2.01
-## User stories para UC 1.01
+Como produtor posso ser validado na plataforma para vender os meus produtos
 
-Each user story form a work item that is of clear value to the customer.
+**US1.11a**  Como produtor adiciono/elimino os meus produtos na plataforma para venda
 
-**US2.1a** As a cashier, I want to validate the user ticket so that I can confirm the user can receive a meal.
+**US1.11b** Coomo produtor dou a conhecer os meus produtos para a comunidade 
 
-**US2.1b** As a cashier, I want check the user tickets so that I can consult the user login, the account balance and the last tickets bought by the user.
 
-**US2.1c** As a cashier, I want to validate the ticket of a user with negative account balance, so that the user can load money to his/her account to get access to the meal.
+### Testes de aceitação US1.11a
+* Verificar botão de registo para produtor
+* Verificar formulário correto para produtor
+### Teste de aceitação US1.11b
+* Verificar todos os produtos do produtor tem informção correta
 
-### Acceptance tests for US2.1a
-### Testes de aceitação
+
+
 
 
 ## Planeamento da Sprint

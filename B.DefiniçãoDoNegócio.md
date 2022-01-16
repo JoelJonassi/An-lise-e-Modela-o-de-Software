@@ -1,7 +1,7 @@
 # Business processes modelling
 Para o cliente comprar os produtos e beneficiar da entrega ao domicilio no mesmo dia util, terá que comprar na plataforma antes da 15:00. Caso nao haja o produto a camara recorrerá aos produtores locais para se abastecer.
 
-![BPMN_diagram.png](https://bitbucket.org/repo/y5rxLzz/images/3667922231-BPMN_diagram.png)
+![BPMN_diagram.png](Images\BPMN_diagram.png)
 ----
 
 # Modelo de domínio
