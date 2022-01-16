@@ -21,12 +21,19 @@ A seguinte figura apresenta o mockup para o use case "Login". O cliente efectua 
 
 ### Mockup for US1.1c 
 
-Como utilizador tenho que fazer login para que possa completar o meu processo de registo acedeendo ao meu perfil e inserindo os dados necessários na minha conta.
+Como utilizador tenho que fazer login para que possa completar o meu processo de registo acedendo ao meu perfil e inserindo os dados necessários na minha conta.
 
-A seguinte figura demostra o processo de inserção dos dados neccessários para que possa completar o processo de registo.
+A seguinte figura demonstra o processo de inserção dos dados neccessários para que possa completar o processo de registo.
 
 ![image](Images/Mockup_Registo.JPG)
 
+### Mockup for CdU1.11
+
+Como administrador da plataforma, tenho como função fazer a gestão dos produtores e identificar o seu estado perante a mesma.
+
+A seguinte figura demonstra o processo de validação dos produtores definindo e seu estado.
+
+![image](Images/Mockup_Gerir_Produtores.JPG)
 
 ## Class model
 
