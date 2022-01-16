@@ -73,8 +73,8 @@ Como utilizador, posso comprar qualquer produto na plataforma eleminando ou adic
 ### Narrativa de UC2.06
 Basic Flow | Alternative Flows
 -----|-----
-1 Comprar items selecionados | A1. Carrinho vazio 
-2 Mostrar total | A2. Sem total visível
+1 Adicionar items no carrinho | A1. Carrinho vazio 
+2 Mostrar total dos items | A2. Sem total visível
 3 Selecionar tipo de pagamento | A3. Pagamento indisponivél
 4 Confirmação de dados | A4. Dados errados
 5 Cancelar a encomenda | A5 Sem encomenda efetuada
