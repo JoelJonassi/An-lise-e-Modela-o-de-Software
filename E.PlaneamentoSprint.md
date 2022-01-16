@@ -114,7 +114,7 @@ Fluxos Básicos | Fluxos Alternativos
 
 ## User stories para  Cdu1.11
 
-Como produtor posso ser validado na plataforma para vender os meus produtos
+Como produtor posso ser possso validado na plataforma para vender os meus produtos
 
 **US1.11a**  Como produtor adiciono/elimino os meus produtos na plataforma para venda
 

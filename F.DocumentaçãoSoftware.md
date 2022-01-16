@@ -31,7 +31,7 @@ A seguinte figura demonstra o processo de inserção dos dados neccessários par
 
 Como administrador da plataforma, tenho como função fazer a gestão dos produtores e identificar o seu estado perante a mesma.
 
-A seguinte figura demonstra o processo de validação dos produtores definindo e seu estado.
+A seguinte figura demonstra o processo de validação dos produtores definindo o seu estado.
 
 ![image](Images/Mockup_Gerir_Produtores.JPG)
 
