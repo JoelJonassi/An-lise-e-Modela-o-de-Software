@@ -30,10 +30,12 @@ A seguinte figura demostra o processo de inserção dos dados neccessários para
 
 ## Class model
 
+Baseado no diagrama de dominio, foi desenvolvido o diagrama de clases. O 
+
 Based on the domain model, we need to develop a detailed class diagram. The diagram does not need to be complete, but should comprise the all the classes involved in the sprint.
 The class diagram includes also the boundary and control classes for both use cases.
 
-![ClassD](images/ClassDiagram.png)
+![ClassD](images/DiagramaClasse.png)
 
 When the user loads money to the system, his/her account balance in that instant is calculated and stored with the money load data.
 We assume that the account balance is calculated based on the last money load, from which the tickets purchased after that moment are subtracted.
