@@ -23,9 +23,13 @@ A seguinte figura apresenta o mockup para o use case "Login". O cliente efectua 
 
 Como utilizador tenho que fazer login para que possa completar o meu processo de registo acedendo ao meu perfil e inserindo os dados necessários na minha conta.
 
-A seguinte figura demonstra o processo de inserção dos dados neccessários para que possa completar o processo de registo.
+A seguintes figuras demonstram o processo de inserção dos dados neccessários para que possa completar o processo de registo.
 
 ![image](Images/Mockup_Registo.JPG)
+
+![image](Images/Diagrama_Seq_Inserir_dados.JPG)
+
+
 
 ### Mockup for CdU1.11
 
