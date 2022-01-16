@@ -19,6 +19,7 @@ Como utilizador poderei criar e registar os meus dados na plataforma onde posso 
 
 **US1.1c** Como utilizador tenho que fazer login para que possa completar o meu processo de registo.
 
+
 ### Testes de aceitação da US1.1a (Novo registo)
 
 * Verificar deixei campos vazios nos campos obrigatorios e mostar mensagem de erro
@@ -116,7 +117,7 @@ Como produtor posso ser possso validado na plataforma para vender os meus produt
 
 **US1.11a**  Como produtor adiciono/elimino os meus produtos na plataforma para venda
 
-**US1.11b** Coomo produtor dou a conhecer os meus produtos para a comunidade 
+**US1.11b** Como produtor dou a conhecer os meus produtos para a comunidade 
 
 ### Testes de aceitação US1.11a
 * Verificar botão de registo para produtor
@@ -124,23 +125,25 @@ Como produtor posso ser possso validado na plataforma para vender os meus produt
 ### Teste de aceitação US1.11b
 * Verificar todos os produtos do produtor tem informção correta
 
-
-
-
-
 ## Planeamento da Sprint
 
 A tabela asseguir inclui as user stories dos casos de uso considerados.
 
-
-Cdu | User story | Fluxos | estimativa | 3rd SB
+Cdu | User story | Fluxos | estimativa | Terceiro SB
 --- | --- | --- | --- | ---
-02.06 Efetuar compra|1.1a Default date meal|BF |3d|X
-1.1 Purchase ticket|1.1b Esolher o produto|BF, A1, A2|2d|X
-1.1 Purchase ticket|1.1c Produto indiponivel|BF, A3, A4|4h|
-2.1 Validar encomenda|2.1a Encomenda paga|BF|2d|X
-2.1 Validate ticket|2.1b Encomenda a espera de pagamento|BF, A1, A2, A3|1d|
-2.1 Validate ticket|2.1c Paga aguarda o envio|BF, A4|2d|
-
+1.01 Valida Produtor| 1.1a criar conta | BF, A1, A2, A3| 4d | x|
+1.01 Valida Produtor| 1.1b verificar conta | BF, A2| 4d | x|
+1.11 Valida Produtor| 1.1c validar conta | BF| 4d | x|
+1.11 Valida Produtor| 1.1d ver produtos | BF, A3| 3d | x|
+1.11 Valida Produtor| 1.1e eliminar conta | BF, A3, A4| 4d | x|
+2.01 Gerir Carrinho| 2.1a carrinho vazio |BF, A1|2d|X|
+2.01 Gerir Carrinho| 2.1b consultar carrinho |BF|4d|
+2.01 Gerir Carrinho| 2.1c apagar itens no carrinho|BF, A4|7h|
+2.06 Efetuar compra| 1.1a produtos mais vendidos |BF |4d|X|
+2.06 Efetuar compra| 1.1b Escolher o produto |BF, A1|3d|X|
+2.06 Efetuar compra| 1.1c Escolher o produtor |BF, A3, A4|6d|
+2.06 Efetuar compra| 1.1d Produto indiponivel |BF, A5|2d|
+2.06 Efetuar compra| 1.1e Adicionar item no carrinho |BF, A4|3d|
+2.06 Efetuar compra| 1.1f Erro codigo-postal |BF, A4|5d|
 
 [Back Home](Home)
