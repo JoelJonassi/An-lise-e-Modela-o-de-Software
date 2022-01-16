@@ -20,99 +20,109 @@ Considerando a prioridade da table dos casos de uso,  17 são de alta prioridade
 Considering the UC prioritization table, 2 UC are in high priority.
 
 
+
 ##  Caso de uso:  Novo Registo(Cdu1.01)
 Cdu01.01 | Novo Registo  
 
-### Narrative of UC1.01
+### Narrativa da UC1.01
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
-1 Preencher dados | A1. Conta não registada no sistema
-2 Guardar registo | A2. Credênciais erradas
+1 Preencher dados | A1. Dados errados
+2 Guardar registo | A2. Conta existente
 3 Atualizar registo | A3. Email não verificado
-4 Carrega foto | A4. 
 
 ### User stories para Cdu1.01
 Como utilizador poderei criar e registar os meus dados na plataforma onde posso entrar e comprar os produtos.  
 
-**US1.1a** Como novo utilizador sou encaminhado para registar uma conta na plataforma.
+**US1.1a** Como novo utilizador sou encaminhado para registar uma conta na plataforma
 
-**US1.1b** Como utilizador, consigo fazer login e começar a comprar produtos.
+**US1.1b** Como utilizador consigo fazer login para começar a comprar produtos
 
-**US1.1c** Como utilizador consigo ver o meu nome e fotografia depois de entrar na página.
+**US1.1c** Como utilizador consigo ver o meu nome e email, depois de entrar na página
 
-### Testes de aceitação para US1.1a (Novo registo)
+### Testes de aceitação da US1.1a (Novo registo)
 
-* Tentar não inserir dados nos campos obrigatoriose mostar mensagem de erro
-* Tentar não registar/validar email
+* Verificar deixei campos vazios nos campos obrigatorios e mostar mensagem de erro
+* Tentar não registar/validar email para continuar a comprar
 * Verificar se todos os dados foram preenchidos corretamente
 
-### Testes de aceitação for US1.1b (Novo registo)
+### Testes de aceitação da US1.1b (Novo registo)
 
 * Verificar quando loggado nao é reencaminho para nenhuma página de registo
+* Verificar navegaçao entre páginas que o meu token de loggin nao é esquecido, premanecendo assim loggado
 
-### Testes de aceitação for US1.1c (Novo registo)
+### Testes de aceitação da US1.1c (Novo registo)
 
-* Verificar dados corretos
+* Verificar que token do loggin que me é dado não é alterado/modificado
+
+
 
 ##  Caso de uso: Gerir Carrinho(Cdu02.01)
 Cdu02.01 | Gerir Carrinho
 
-### Narrative of UC2.01
+### Narrativa da UC2.01
 
 Fluxos Básicos | Fluxos Alternativos
 -----|-----
 1 Inserir produto no carrinho | A1. Produto inválido
 2 Eliminar produto | A2. Produto continua no carrinho 
-3 Mostrar carrinho | A3. carrinho vazio
+3 Mostrar carrinho | A3. Carrinho vazio
 4 Mostrar total | A4. Preços inválidos
 
-## User stories for UC1.01 and UC 2.01
 ## User stories para Cdu 2.01  
-Como utilizador, posso comprar qualquer produto na plataforma.
+Como utilizador, posso comprar qualquer produto na plataforma eleminando ou adicionando produtos ao carrinho mesmo antes de terminar a compra.
 
-**US2.01a** Como utilizador posso consultar minha dashboard para ver as minhas compras.
+**US2.01a** Como utilizador posso consultar meu carrinho para ver os meus items selecionados
 
-**US2.01b** Como utilizador consigo comprar qualquer produto disponivel na plataforma
+**US2.01b** Como utilizador posso adicionar/eliminar qualquer produto disponivel na plataforma para o meu carrinho
 
-**US2.01c** 
-
-### Acceptance tests for US2.1a
-### Testes de aceitação
-
-* Tentar efetuar compra com carrinho vazia
+### Testes de aceitação para US2.1a(Gerir Carrinho)
+* Tentar efetuar compra com carrinho vazio
 * Verificar se existe botão para efetuar compra
 * Verificar se total da compra é visivel
 * Verificar se preço dos produtos é visível
 
-##  Caso de uso: Efetuar Compra (Cdu02.06)
+### Testes de aceitação para US2.1b(Gerir Carrinho)
+* Verificar se existe espaço para selecionar quantas unidades pertendo adicionar ao carrinho
+* Verificar se seleçao vai para carrinho de compras
+* Verificar se existe botão para eliminar
 
+
+
+
+##  Caso de uso: Efetuar Compra (Cdu02.06)
+Cdu02.06 | Efetuar Compra
 
 ### Narrative of UC2.01
 Basic Flow | Alternative Flows
 -----|-----
-1 Selecionar Produtos | A1.
-2 Mostrar Produtor | A2. Select different canteen
-3 Adicionar produtos ao carrinho | A3. No menu in selected date
-4 Efetua  a encomenda | A4. Insufficient account balance
-5 Cancelar a encomenda | ...
+1 Comprar items selecionados | A1. Carrinho vazio 
+2 Mostrar total | A2. Sem total visível
+3 Selecionar tipo de pagamento | A3. Pagamento indisponivél
+4 Confirmação de dados | A4. Dados errados
+5 Cancelar a encomenda | A5 Sem encomenda efetuada
 
 
 ## User stories for UC1.01 and UC 2.01
 ## User stories para UC 1.01
 
 
-**US2.1a** As a cashier, I want to validate the user ticket so that I can confirm the user can receive a meal.
+**US2.1a** Como utilizador quero terminar a seleção de artigos para efetuar a compra
 
-**US2.1b** As a cashier, I want check the user tickets so that I can consult the user login, the account balance and the last tickets bought by the user.
+**US2.1b** Como utilizador quero comprar sem falhas de segurança para comprar novamente
 
-**US2.1c** As a cashier, I want to validate the ticket of a user with negative account balance, so that the user can load money to his/her account to get access to the meal.
+**US2.1c** Como utilizador posso comprar todo os items para não ter que me deslocar ao mercado
 
-### Acceptance tests for US2.1a
-### Testes de aceitação
+### Testes de aceitação US2.1a
+* Verificar botão de confirmção de compra ou selecionar mais items
+* Verificar botão para pagamento
 
+### Testes de aceitação US2.1b
+* Verificar quando inseridos os dados do cartão de pagamento do cliente não existe falhas de segurança na plataforma
 
-
+### Testes de aceitação US2.1c
+* Verificar items selecionados permanecem na encomenda
 
 
 ##  Caso de uso: Efetuar Compra (Cdu02.06)
