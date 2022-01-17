@@ -1,11 +1,12 @@
-# Implementation Doc
+# Documentação do Software
 
-This document presents the project design artifacts developed to support the software development of sprint 03.
+Este documento apresenta os aterfatos de design do projeto, desenvolvidos para apoiar o desenvolvimento de software da sprint 3.
 
 ## Interface mockups
-THe interface mockups help to to better understand the features to be created.
 
-### Mockup for UC1.01a
+Os mockups ajuda a melhor entender as caracteristicas que a serem criadas.
+
+### Mockup para Cdu1.01a
 
 A seguinte figura apresenta o mockup para o use case "Novo Registo". O cliente acede ao sistema por um browser.
 
@@ -19,16 +20,13 @@ A seguinte figura apresenta o mockup para o use case "Login". O cliente efectua 
 
 ![image](Images/Mockup_Compra.JPG)
 
-### Mockup for US1.1c 
+### Mockup para US1.1c 
 
 Como utilizador tenho que fazer login para que possa completar o meu processo de registo acedendo ao meu perfil e inserindo os dados necessários na minha conta.
 
 A seguintes figuras demonstram o processo de inserção dos dados neccessários para que possa completar o processo de registo.
 
 ![image](Images/Mockup_Registo.JPG)
-
-![image](Images/Diagrama_Seq_Inserir_dados.JPG)
-
 
 
 ### Mockup for CdU1.11
@@ -42,10 +40,7 @@ A seguinte figura demonstra o processo de validação dos produtores definindo o
 ## Class model
 
 
-Baseado no diagrama de dominio, foi desenvolvido o diagrama de clases. O 
-
-Based on the domain model, we need to develop a detailed class diagram. The diagram does not need to be complete, but should comprise the all the classes involved in the sprint.
-The class diagram includes also the boundary and control classes for both use cases.
+Baseado no diagrama de dominio, foi desenvolvido o diagrama de clases.
 
 ![ClassD](images/DiagramaClasse.png)
 
