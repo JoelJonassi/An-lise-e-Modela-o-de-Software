@@ -42,7 +42,7 @@ A seguinte figura demonstra o processo de validação dos produtores definindo o
 
 Baseado no diagrama de dominio, foi desenvolvido o diagrama de clases.
 
-![ClassD](images/DiagramaClasse.png)
+![ClassD](Images/DiagramaClasse.png)
 
 Baseada no modelo de dominio, foi elaborado um diagrama da maquina de estados da classe de Encomenda. 
 Foi escoilhida esta classe com base na importância para o projeto. 
